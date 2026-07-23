@@ -1,0 +1,108 @@
+---
+---
+
+{@import "jekyll-theme-slate";}
+
+/* ============================================
+   HEADER LAYOUT - Title Left, Nav Right
+   ============================================ */
+
+.header-flex {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: flex-start !important;
+  gap: 20px !important;
+}
+
+.header-left {
+  flex: 1 !important;
+}
+
+#project_title {
+  margin: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+#project_tagline {
+  margin: 0 !important;
+  margin-top: 5px !important;
+}
+
+.navbar {
+  display: flex !important;
+  gap: 15px !important;
+  flex-wrap: wrap !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+  min-width: fit-content !important;
+}
+
+/* Navigation Styles - Slate Theme Integration */
+
+.navbar-item a {
+  color: #fff !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+  font-size: 0.95rem !important;
+  padding: 6px 12px !important;
+  transition: opacity 0.2s !important;
+}
+
+.navbar-item a:hover {
+  opacity: 0.8 !important;
+}
+
+.navbar-dropdown {
+  position: relative !important;
+  display: inline-block !important;
+}
+
+.dropdown-btn {
+  padding: 6px 12px!important;
+  background-color: transparent !important;
+  color: white !important;
+  border: 1px solid rgba(255, 255, 255, 0.4) !important;
+  border-radius: 3px !important;
+  cursor: pointer !important;
+  font-size: 0.95rem !important;
+  font-weight: 500 !important;
+  transition: all 0.2s !important;
+}
+
+.dropdown-btn:hover {
+  border-color: #27ae60 !important;
+  background-color: rgba(39, 174, 96, 0.1) !important;
+}
+
+.dropdown-content {
+  display: none !important;
+  position: absolute !important;
+  background-color: #0d47a1 !important;
+  min-width: 160px !important;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4) !important;
+  padding: 6px 0 !important;
+  z-index: 1000 !important;
+  border-radius: 3px !important;
+  border: 1px solid rgba(39, 174, 96, 0.3) !important;
+  top: 100% !important;
+  left: 0 !important;
+}
+
+.dropdown-content a {
+  color: #fff !important;
+  padding: 10px 16px !important;
+  text-decoration: none !important;
+  display: block !important;
+  font-size: 0.9rem !important;
+  transition: background-color 0.2s !important;
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(39, 174, 96, 0.2) !important;
+  border-left: 3px solid #27ae60 !important;
+  padding-left: 13px !important;
+}
+
+.navbar-dropdown.active .dropdown-content {
+  display: block !important;
+}
