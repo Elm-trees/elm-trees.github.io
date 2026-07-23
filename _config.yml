@@ -5,6 +5,6 @@ google_analytics:
 theme: jekyll-theme-slate
 navigation:
 - name: Home
-  url: /
+  url: /README.md
 - name: Publications
-  url: /publications/
+  url: /publications.md
