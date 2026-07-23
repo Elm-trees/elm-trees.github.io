@@ -1,7 +1,7 @@
 ---
 ---
 
-{@import "jekyll-theme-slate";}
+/*{@import "jekyll-theme-slate";}
 
 /* ============================================
    HEADER LAYOUT - Title Left, Nav Right
@@ -38,12 +38,6 @@
 }
 
 /* Navigation Styles - Slate Theme Integration */
-.navbar {
-  display: flex !important;
-  gap: 15px !important;
-  margin-top: 1.5rem !important;
-  flex-wrap: wrap !important;
-}
 
 .navbar-item a {
   color: #fff !important;
