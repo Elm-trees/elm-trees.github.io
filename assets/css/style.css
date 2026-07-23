@@ -1,0 +1,75 @@
+/* Navigation Styles - Slate Theme Integration */
+.navbar {
+  display: flex;
+  gap: 15px;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.navbar-item a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding: 6px 12px;
+  transition: opacity 0.2s;
+}
+
+.navbar-item a:hover {
+  opacity: 0.8;
+}
+
+.navbar-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-btn {
+  padding: 6px 12px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.dropdown-btn:hover {
+  border-color: #27ae60;
+  background-color: rgba(39, 174, 96, 0.1);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0d47a1;
+  min-width: 160px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+  padding: 6px 0;
+  z-index: 1000;
+  border-radius: 3px;
+  border: 1px solid rgba(39, 174, 96, 0.3);
+  top: 100%;
+  left: 0;
+}
+
+.dropdown-content a {
+  color: #fff;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(39, 174, 96, 0.2);
+  border-left: 3px solid #27ae60;
+  padding-left: 13px;
+}
+
+.navbar-dropdown.active .dropdown-content {
+  display: block;
+}
