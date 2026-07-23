@@ -3,3 +3,8 @@ description: PhD Student in Bioinformatics
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-slate
+navigation:
+- name: Home
+  url: /
+- name: Publications
+  url: /publications/
