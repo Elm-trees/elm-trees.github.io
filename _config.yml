@@ -1,12 +1,5 @@
-title: Elm Markert
+title: Eli 'Elm' Markert
 description: PhD Student in Bioinformatics
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-slate
-include:
-  - _includes
-#navigation:
-#- name: Home
-#  url: /README.md
-#- name: Publications
-#  url: /publications.md
