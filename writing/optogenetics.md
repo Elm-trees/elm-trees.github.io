@@ -5,14 +5,10 @@ excerpt: "A few years ago, the Dunlop lab recreated a short gray-scale clip from
 
 # Shining Colored Lights on Bacteria can Recreate Movie Scenes
 
--------------------------------------------------------------------------------------
-
+<hr style="height: 1px; background-color: #333333; border: none;">
 08/08/2026 | Written by E.X. Markert\
 _This article requires light knowledge of the central dogma (DNA → RNA → Protein) as well as positive and negative charges._
-
--------------------------------------------------------------------------------------
-
-
+<hr style="height: 1px; background-color: #333333; border: none;">
 
 A few years ago, the Dunlop lab recreated a short gray-scale clip from _2001: A Space Odyssey_ with glowing bacteria[^Lugagne]. The first time I read about that project, it seemed like something out of a Sci-Fi film. It really did happen, though, which raises two questions: how did they do it and why does it matter?
 
@@ -42,6 +38,7 @@ The Dunlop lab performed optogenetic control in real time by setting a target se
 
 Reconstructing a movie scene is cool, but why does it matter? Primarily, controlling gene expression this way enables us to study other biological processes more in depth. For example, we could artificially regulate a stress response gene to see how important it is or what other genes try to compensate. We could also investigate how different genes interact with each other by using more fluorescent reporters. Studying gene interactions is of particular interest to me because I hope to eventually investigate how randomness in gene expression is affected by other genes. That, however, is a topic for another day.
 
+<hr style="height: 1px; background-color: #333333; border: none;">
 [^Lugagne]: See supplementary movie 3 in [Lugagne _et al._ 2024](https://doi.org/10.1038/s41467-024-46361-1) from Nature Communications. The paper covers a lot more than my summary does, and I’d highly recommend giving it a read!
 
 [^GFP]: [Stearns 1995](https://doi.org/10.1016/S0960-9822(95)00056-X) from Cell Press is an old but good overview of GFP itself. All fluorescent proteins, including GFP, are a type of _fluorophore_. Fluorophores are a broader category of molecules that absorb and emit light. This [page](https://www.thermofisher.com/us/en/home/life-science/cell-analysis/cell-analysis-learning-center/molecular-probes-school-of-fluorescence/fluorescence-basics/fluorescence-fundamentals/process-fluorescence.html) from Thermo Fisher is a good explanation of how fluorophores work.
