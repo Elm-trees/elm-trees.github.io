@@ -38,7 +38,10 @@ The Dunlop lab performed optogenetic control in real time by setting a target se
 
 Reconstructing a movie scene is cool, but why does it matter? Primarily, controlling gene expression this way enables us to study other biological processes more in depth. For example, we could artificially regulate a stress response gene to see how important it is or what other genes try to compensate. We could also investigate how different genes interact with each other by using more fluorescent reporters. Studying gene interactions is of particular interest to me because I hope to eventually investigate how randomness in gene expression is affected by other genes. That, however, is a topic for another day.
 
+_I welcome questions and comments about my writing. Feel free to reach out to me on LinkedIn!_
+
 <hr style="height: 1px; background-color: #333333; border: none;">
+
 [^Lugagne]: See supplementary movie 3 in [Lugagne _et al._ 2024](https://doi.org/10.1038/s41467-024-46361-1) from Nature Communications. The paper covers a lot more than my summary does, and I’d highly recommend giving it a read!
 
 [^GFP]: [Stearns 1995](https://doi.org/10.1016/S0960-9822(95)00056-X) from Cell Press is an old but good overview of GFP itself. All fluorescent proteins, including GFP, are a type of _fluorophore_. Fluorophores are a broader category of molecules that absorb and emit light. This [page](https://www.thermofisher.com/us/en/home/life-science/cell-analysis/cell-analysis-learning-center/molecular-probes-school-of-fluorescence/fluorescence-basics/fluorescence-fundamentals/process-fluorescence.html) from Thermo Fisher is a good explanation of how fluorophores work.
@@ -46,5 +49,3 @@ Reconstructing a movie scene is cool, but why does it matter? Primarily, control
 [^phospho]: Amino acids, which are what proteins are made of, are charged. This [Khan Academy article](https://www.khanacademy.org/test-prep/mcat/biomolecules/amino-acids-and-proteins1/a/amino-acid-structure-and-classifications) talks about different amino acid classifications and charges. This [Thermo Fisher article](https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-biology-resource-library/pierce-protein-methods/phosphorylation.html) talks more broadly about phosphorylation.
 
 [^opto]: [Lindner & Diepold 2022](https://doi.org/10.1093/femsre/fuab055) from Microbiology Reviews is a good, in-depth review of optogenetic control in bacteria.
-
-_I welcome questions and comments about my writing. Feel free to reach out to me on LinkedIn!_
