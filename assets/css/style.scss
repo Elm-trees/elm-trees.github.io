@@ -162,3 +162,41 @@
   font-size: 0.95rem !important;
   line-height: 1.4 !important;
 }
+
+/* ============================================
+   FOOTNOTE STYLING
+   ============================================ */
+
+.footnote {
+  vertical-align: super !important;
+  font-size: 0.8em !important;
+}
+
+a.footnote {
+  text-decoration: none !important;
+  color: #27ae60 !important;
+}
+
+a.footnote:hover {
+  text-decoration: underline !important;
+}
+
+sup {
+  vertical-align: super !important;
+  font-size: 0.8em !important;
+}
+
+.footnotes {
+  margin-top: 2em !important;
+  padding-top: 1em !important;
+  border-top: 1px solid #ddd !important;
+  font-size: 0.9em !important;
+}
+
+.footnotes ol {
+  padding-left: 20px !important;
+}
+
+.footnotes li {
+  margin-bottom: 0.5em !important;
+}
