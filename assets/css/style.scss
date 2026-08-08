@@ -82,19 +82,19 @@
 
 .dropdown-btn:hover {
   border-color: #22AED1 !important;
-  background-color: rgba(39, 174, 96, 0.1) !important;
+  background-color: rgba(34, 174, 209, 0.3) !important;
 }
 
 .dropdown-content {
   display: none !important;
   position: absolute !important;
-  background-color: #212121 !important;
+  background-color: #333 !important;
   min-width: 160px !important;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4) !important;
   padding: 6px 0 !important;
   z-index: 1000 !important;
   border-radius: 3px !important;
-  border: 1px solid rgba(39, 174, 96, 0.3) !important;
+  border: 1px solid rgba(34, 174, 209, 0.3) !important;
   top: 100% !important;
   left: 0 !important;
 }
