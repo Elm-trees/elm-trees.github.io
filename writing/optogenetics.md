@@ -10,7 +10,8 @@ A few years ago, the Dunlop lab recreated a short gray-scale clip from _2001: A 
 
 First, we’ll talk about the “how”. Let’s take a step back and think about how displaying a gray-scale video works. Each frame of the video is a still image displayed on a grid of pixels, with the pixels glowing at different intensities. The lighter and darker spaces in the grid come together to make an image. To recreate this effect using bacteria, we start by assigning each bacterial cell to a grid coordinate. Then, we make the cells glow at different intensities.
 
-![Comparison of making pixel art of a cat with square pixels vs. glowing bacterial cells. The squares are different shades of gray. The bacterial cells are green blobs in gray squares. Some of the greens are brighter while others are darker.](/assets/images/cat_cells.png)
+<img src="./assets/images/cat_cells.png" alt="Comparison of making pixel art of a cat with square pixels vs. glowing bacterial cells. The squares are different shades of gray. The bacterial cells are green blobs in gray squares. Some of the greens are brighter while others are darker." style="border: 2px solid #ccc; border-radius: 4px; width: 100%; max-width: 100%; height: auto;">
+
 
 To make the cells glow, we use green fluorescent protein (GFP)[^GFP]. GFP can absorb energy from blue or white light and become “excited”. However, it can’t hold energy in its excited state for very long. To stop being excited, it has to release all of the energy that it hasn’t already used. Releasing the excess energy causes an emission of green light (~509 nm).
 
@@ -22,7 +23,7 @@ Because the newly added phosphate molecule is negatively charged, CcaR changes i
 
 What if a cell is already bright and we need to make it dimmer? Then, instead of shining green light on the cell, we use red light. Under red light, CcaS reverts to its original shape and _dephosphorylates_ CcaR. Since CcaR is deactivated, GFP gene expression is turned off. Since GFP production stops and proteins degrade over time, the amount of GFP in the cell decreases. As a result, the cell glows less brightly.
 
-![A schematic demonstrating how the CcaSR system that the Dunlop Lab used works. ](/assets/images/Lugagne_2024.png)
+<img src="./assets/images/Lugagne_2024.png" alt="A schematic demonstrating how the CcaSR system that the Dunlop Lab used works." style="border: 2px solid #ccc; border-radius: 4px; width: 100%; max-width: 100%; height: auto;">
 <small>A schematic demonstrating how the CcaSR system that the Dunlop Lab used works. This image is from Lugagne _et al._ 2024 in Nature Communications. It is cropped from Figure 1 but is otherwise unaltered.</small>
 
 So, we can use green light to make cells glow more and red light to make them glow less. Now we have all the tools we need to make a single frame in a video. However, videos are a series of frames. To transition from one frame to another, pixels are programmed to change how much they are glowing over time. Can we use our red and green light controls to make each individual cell glow in a specific pattern over time?
