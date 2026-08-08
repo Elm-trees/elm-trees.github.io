@@ -1,6 +1,6 @@
 # Writing
 
-I like writing a lot. This is where I put pieces about science that I've made for fun. Right now, I'm trying to get better at writing about technical topics for a general audience.
+I enjoy writing. This is where I put pieces about science that I've made for fun. Right now, I'm trying to get better at writing about technical topics for a general audience.
 
 <div class="tiles-container">
   {% for page in site.pages %}
